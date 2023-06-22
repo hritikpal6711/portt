@@ -1,6 +1,14 @@
 import React from 'react'
 import './intro.css'
-
+import Github from "/workspaces/portt/src/img/github.png"
+import LinkedIn from "/workspaces/portt/src/img/linkedin.png"
+import Insta from "/workspaces/portt/src/img/instagram.png"
+import vector1 from   "/workspaces/portt/src/img/Vector1.png"
+import vector2 from "/workspaces/portt/src/img/Vector2.png"
+import boy from "/workspaces/portt/src/img/Hritik1-removebg-preview.png"
+import thumbup from "/workspaces/portt/src/img/thumbup.png"
+import crown from "/workspaces/portt/src/img/crown.png"
+import glassemoji from "/workspaces/portt/src/img/glassesimoji.png"
 const intro = () => {
   return (
     <div className='intro'>
@@ -14,14 +22,26 @@ const intro = () => {
                 </span>
             </div>  
 
+
             <button className="button i-button">Hire Me</button>
+            <div className='i-icons'>
+              <img src={Github} alt="" />
+              <img src={LinkedIn} alt="" />
+              <img src={Insta} alt="" />
+            </div>
         </div>
         
         
         
         
         <div className='i-right'>
-        I am right side    
+        
+       {/* <img src={vector1} alt="" /> */}
+        <img src={vector2} alt="" />  
+        <img src={boy} alt="" />  
+        <div>
+          <FloatingDiv/>
+        </div>
             
         </div>      
     </div>

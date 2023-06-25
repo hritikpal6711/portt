@@ -9,6 +9,7 @@ import boy from "/workspaces/portt/src/img/Hritik1-removebg-preview.png"
 import thumbup from "/workspaces/portt/src/img/thumbup.png"
 import crown from "/workspaces/portt/src/img/crown.png"
 import glassemoji from "/workspaces/portt/src/img/glassesimoji.png"
+import floatingdiv from '/workspaces/portt/src/components/floating div/floatingdiv.jsx'
 const intro = () => {
   return (
     <div className='intro'>
@@ -16,7 +17,7 @@ const intro = () => {
             <div className='i-name'>
                 <span>Hi! I Am</span>
                 <span>Hritik Pal</span>
-                <span>Frontend development with 
+                <span>Frontend Developer with 
                 expertise in developing and deploying
                 beautiful websites.
                 </span>
@@ -39,9 +40,9 @@ const intro = () => {
        {/* <img src={vector1} alt="" /> */}
         <img src={vector2} alt="" />  
         <img src={boy} alt="" />  
-        <div>
-          <FloatingDiv/>
-        </div>
+        <span>
+          <floatingdiv/>
+        </span>
             
         </div>      
     </div>
